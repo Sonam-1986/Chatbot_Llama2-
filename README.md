@@ -4,7 +4,7 @@
 A conversational AI powered by Meta’s LLaMA and the LangChain framework
 
 
-#📖 Overview -
+# 📖 Overview -
 
 1. This project is an intelligent, context-aware chatbot that leverages:
 
@@ -20,7 +20,7 @@ A conversational AI powered by Meta’s LLaMA and the LangChain framework
 
 7. The bot can remember previous messages in the conversation, access external tools, and give human-like, coherent answers.
 
-#✨ Features-
+# ✨ Features-
 
 1. Multi-turn conversation with context retention
 
@@ -32,7 +32,7 @@ A conversational AI powered by Meta’s LLaMA and the LangChain framework
 
 5. Extensible architecture for adding new tools or data sources
 
-#📚 How It Works -
+# 📚 How It Works -
 
 1. User input → sent to LangChain’s ConversationChain
 
@@ -42,7 +42,7 @@ A conversational AI powered by Meta’s LLaMA and the LangChain framework
 
 4. Optional: Tool calls (search, database lookup) for enhanced answers
 
-#📜 Roadmap -
+# 📜 Roadmap -
 
  1. Support for multiple personas
 

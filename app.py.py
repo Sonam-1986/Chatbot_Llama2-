@@ -9,7 +9,7 @@ from contextlib import nullcontext
 # CONFIG
 # -------------------------
 MODEL_NAME = "meta-llama/Llama-2-7b-chat-hf"
-HF_TOKEN = os.getenv("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")
+HF_TOKEN = os.getenv("Enter Your Token Here ")
 MAX_TOKENS = 150
 TEMPERATURE = 0.7
 TOP_P = 0.9
@@ -104,3 +104,4 @@ public_url = ngrok.connect(5000)
 print("Public URL:", public_url)
 
 app.run(host="0.0.0.0", port=5000)
+

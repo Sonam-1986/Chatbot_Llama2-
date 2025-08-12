@@ -70,25 +70,25 @@ This project serves a Meta LLaMA-2 model via a Flask backend and provides a slee
 # INSTALLATION AND REQUIREMENT
 
 
-# 1️⃣ Clone the repository
+1️⃣ Clone the repository
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 
-# 2️⃣ Create and activate a virtual environment
+2️⃣ Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate  # Mac/Linux
 .venv\Scripts\activate     # Windows
 
-# 3️⃣ Install dependencies
+3️⃣ Install dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Add your Hugging Face token in the .env file
+4️⃣ Add your Hugging Face token in the .env file
 HF_TOKEN=your_huggingface_token_here
 
-# 5️⃣ Run Flask app
+5️⃣ Run Flask app
 python app.py
 
-# 6️⃣ (Optional) Start ngrok tunnel
+6️⃣ (Optional) Start ngrok tunnel
 ngrok http 5000
 
 
